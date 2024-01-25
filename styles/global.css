@@ -1,0 +1,44 @@
+:root {
+  --color-text: #fafafa;
+  --color-link-hover: #afb2bf;
+  --color-primary: #6c38cc;
+  --color-primary-hover: #5b2bb2;
+  --color-secondary: #e47ad5;
+  --color-bg: #16171d;
+  --color-bg-medium: #1e1f29;
+  --color-bg-light: #2e2d3d;
+  --color-stroke: #4d5064;
+  --color-footer: #101114;
+  --border-8: 8px;
+  --border-10: 10px;
+  --layout-width: 1172px;
+  --gradient: linear-gradient(
+    93deg,
+    #d77be5 9.26%,
+    #be63e5 42.32%,
+    #6c38cc 104.58%
+  );
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--color-bg);
+  margin: 0;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
